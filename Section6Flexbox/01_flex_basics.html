@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FlexBox Basics</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /*prin selectarea divului si folosirea de display flex avem un flex box in care putem alinia elementele*/
+        .flex-container {
+            display: flex;
+            /*flex-direction: column-reverse;*/
+
+
+            /*cand micsorezi fereastra lementul merge un rand mai jos*/
+            flex-wrap: wrap;
+        }
+
+        .item {
+            background: lightgrey;
+            border: #ccc solid 2px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+            /*1 grow 0 shrink 200px basis care seteaza width*/
+            flex: 1 0 200px;
+        }
+
+        /*.item-1{*/
+        /*    !*elementul 1 nu se micsoreaza cand modifici fereastra*!*/
+        /*    flex-shrink: 0;*/
+        /*}*/
+
+        /*.item-2{*/
+        /*    !*se mareste ca sa ocupe toata fereastra*!*/
+        /*    flex-grow: 1;*/
+        /*}*/
+
+        /*.item-3{*/
+        /*    !*de doua ori mai mari ca item 2*!*/
+        /*    flex-grow: 2;*/
+        /*}*/
+
+    </style>
+</head>
+<body>
+<div class="flex-container">
+    <div class="item item-1">
+        <h3>Item 1</h3>
+    </div>
+    <div class="item item-2">
+        <h3>Item 2</h3>
+    </div>
+    <div class="item item-3">
+        <h3>Item 3</h3>
+    </div>
+</div>
+
+</body>
+</html>

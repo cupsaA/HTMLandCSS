@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex Align </title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /*prin selectarea divului si folosirea de display flex avem un flex box in care putem alinia elementele*/
+        .flex-container {
+            background-color: pink;
+            display: flex;
+            flex-direction: row;
+            /*cross axis align*/
+            align-items: center;
+            /*main axis align*/
+            justify-content: space-between;
+            height: 50vh;
+        }
+
+        .item {
+            background: lightgrey;
+            border: #ccc solid 2px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+            /*flex: 1;*/
+        }
+
+    </style>
+</head>
+<body>
+<div class="flex-container">
+    <div class="item item-1">
+        <h3>Item 1</h3>
+    </div>
+    <div class="item item-2">
+        <h3>Item 2</h3>
+    </div>
+    <div class="item item-3">
+        <h3>Item 3</h3>
+    </div>
+</div>
+
+</body>
+</html>

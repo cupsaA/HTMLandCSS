@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form & Inputs</title>
+</head>
+<body>
+<form action="">
+    <div>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" value="John D">
+    </div>
+    <div>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" placeholder="enter a email">
+    </div>
+    <div>
+        <label for="message">Message</label><br>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <label for="sex"></label>
+        <select name="sex" id="sex">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+    </div>
+    <div>
+        <label for="age">Age</label><br>
+        <input type="number" name="age" id="age">
+    </div>
+    <div>
+        <label for="birthdate">Birtdate</label><br>
+        <input type="date" name="birthdate" id="birthdate">
+    </div>
+    <div>
+        <label for="membership">Membership</label>
+        <input type="radio" name="membership" value="simple"> Simple
+        <input type="radio" name="membership" value="standard" checked> Standard
+        <input type="radio" name="membership" value="super"> Super
+    </div>
+    <div>
+        <label for="membership">I like...</label>
+        <input type="checkbox" name="likes" value="bike"> Bike
+        <input type="checkbox" name="likes" value="car" checked> Car
+        <input type="checkbox" name="checkbox" value="bus"> Bus
+    </div>
+    <input type="submit" value="Submit">
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="088d93c1-1632-4215-ba22-96b87b212404" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fEKE03zAJtzMjSUKQSJdMIxy6V" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.xml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Section10Projects/HamburgerMenu" />
+      <recent name="$PROJECT_DIR$/Section10Projects/PresentationSite" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="03_typography.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HTML5&amp;CSS3/Section2HTMLBasics/03_typography.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.03_typography.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="088d93c1-1632-4215-ba22-96b87b212404" name="Default Changelist" comment="" />
+      <created>1595777698381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595777698381</updated>
+      <workItem from="1595777703541" duration="6518000" />
+      <workItem from="1595905779486" duration="9082000" />
+      <workItem from="1595993494346" duration="10022000" />
+      <workItem from="1596034263747" duration="3683000" />
+      <workItem from="1596091283065" duration="651000" />
+      <workItem from="1596181440766" duration="5078000" />
+      <workItem from="1596375429682" duration="2877000" />
+      <workItem from="1596542215194" duration="11402000" />
+      <workItem from="1597142328658" duration="457000" />
+      <workItem from="1597303036699" duration="19553000" />
+      <workItem from="1597489494125" duration="8962000" />
+      <workItem from="1597588318702" duration="5911000" />
+      <workItem from="1597685850414" duration="770000" />
+      <workItem from="1597687882230" duration="2009000" />
+      <workItem from="1597771528374" duration="4944000" />
+      <workItem from="1597937259152" duration="1812000" />
+      <workItem from="1598176223706" duration="9362000" />
+      <workItem from="1598238401444" duration="8410000" />
+      <workItem from="1598294318281" duration="4634000" />
+      <workItem from="1598411889648" duration="6327000" />
+      <workItem from="1598700058994" duration="56000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

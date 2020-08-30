@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Before and After</title>
+    <style>
+        .is-required:after {
+            content: '*';
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #333;
+            color: white;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100vh;
+
+        }
+
+        header:before {
+            content: '';
+            background: url("https://source.unsplash.com/random") no-repeat center center/cover;
+            opacity: 0.4;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        header > h1 {
+            font-size: 4rem;
+            margin: 1rem;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<!--<label class="is-required" for="name">Name</label>-->
+<!--<input type="text">-->
+
+<header>
+    <h1>Hello World</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, magni.</p>
+</header>
+
+<section>
+    <h3>Lorem ipsum dolor.</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab error maiores minima natus, saepe sed voluptas
+        voluptatem. Cupiditate ducimus facilis, libero magni nam officiis, placeat quisquam quod rem rerum sint.</p>
+</section>
+</body>
+</html>
